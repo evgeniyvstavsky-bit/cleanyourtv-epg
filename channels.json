@@ -1,0 +1,390 @@
+[
+  {
+    "name": "Первый канал",
+    "xmltv_id": "146"
+  },
+  {
+    "name": "Россия 1",
+    "xmltv_id": "711"
+  },
+  {
+    "name": "Матч ТВ",
+    "xmltv_id": "2051"
+  },
+  {
+    "name": "НТВ",
+    "xmltv_id": "162"
+  },
+  {
+    "name": "Россия К / Культура",
+    "xmltv_id": "187"
+  },
+  {
+    "name": "Россия 24",
+    "xmltv_id": "1683"
+  },
+  {
+    "name": "Карусель",
+    "xmltv_id": "740"
+  },
+  {
+    "name": "ОТР",
+    "xmltv_id": "1000"
+  },
+  {
+    "name": "ТВ Центр",
+    "xmltv_id": "649"
+  },
+  {
+    "name": "РЕН ТВ",
+    "xmltv_id": "18"
+  },
+  {
+    "name": "СПАС",
+    "xmltv_id": "2141"
+  },
+  {
+    "name": "СТС",
+    "xmltv_id": "79"
+  },
+  {
+    "name": "Домашний",
+    "xmltv_id": "304"
+  },
+  {
+    "name": "ТВ-3",
+    "xmltv_id": "698"
+  },
+  {
+    "name": "Пятница!",
+    "xmltv_id": "1003"
+  },
+  {
+    "name": "Звезда",
+    "xmltv_id": "405"
+  },
+  {
+    "name": "МИР",
+    "xmltv_id": "726"
+  },
+  {
+    "name": "ТНТ",
+    "xmltv_id": "353"
+  },
+  {
+    "name": "ВМЕСТЕ-РФ",
+    "xmltv_id": "2398"
+  },
+  {
+    "name": "Известия HD",
+    "xmltv_id": "2271"
+  },
+  {
+    "name": "Красная линия",
+    "xmltv_id": "2476"
+  },
+  {
+    "name": "МИР 24",
+    "xmltv_id": "2078"
+  },
+  {
+    "name": "НТВ Мир",
+    "xmltv_id": "7258"
+  },
+  {
+    "name": "Amedia HIT",
+    "xmltv_id": "2007"
+  },
+  {
+    "name": "Amedia Premium HD",
+    "xmltv_id": "1372"
+  },
+  {
+    "name": "Fox HD",
+    "xmltv_id": "1031"
+  },
+  {
+    "name": "Fox Life HD",
+    "xmltv_id": "615"
+  },
+  {
+    "name": "TV1000",
+    "xmltv_id": "127"
+  },
+  {
+    "name": "TV1000 Action",
+    "xmltv_id": "125"
+  },
+  {
+    "name": "TV1000 Русское кино",
+    "xmltv_id": "267"
+  },
+  {
+    "name": "Время",
+    "xmltv_id": "669"
+  },
+  {
+    "name": "Дом кино",
+    "xmltv_id": "834"
+  },
+  {
+    "name": "Еврокино",
+    "xmltv_id": "352"
+  },
+  {
+    "name": "Иллюзион+",
+    "xmltv_id": "2403"
+  },
+  {
+    "name": "Киномикс",
+    "xmltv_id": "644"
+  },
+  {
+    "name": "Кинопремьера",
+    "xmltv_id": "566"
+  },
+  {
+    "name": "Киносвидание",
+    "xmltv_id": "462"
+  },
+  {
+    "name": "Киносемья",
+    "xmltv_id": "987"
+  },
+  {
+    "name": "Киносерия",
+    "xmltv_id": "799"
+  },
+  {
+    "name": "Кинохит",
+    "xmltv_id": "542"
+  },
+  {
+    "name": "Комедия",
+    "xmltv_id": "1620"
+  },
+  {
+    "name": "Мосфильм Золотая коллекция",
+    "xmltv_id": "3357"
+  },
+  {
+    "name": "Наше новое кино",
+    "xmltv_id": "485"
+  },
+  {
+    "name": "НТВ Сериал",
+    "xmltv_id": "1754"
+  },
+  {
+    "name": "Ретро",
+    "xmltv_id": "2402"
+  },
+  {
+    "name": "Родное кино",
+    "xmltv_id": "12"
+  },
+  {
+    "name": "СТС Love",
+    "xmltv_id": "1322"
+  },
+  {
+    "name": "Суббота",
+    "xmltv_id": "2288"
+  },
+  {
+    "name": "ТНТ4",
+    "xmltv_id": "1649"
+  },
+  {
+    "name": "Че",
+    "xmltv_id": "1598"
+  },
+  {
+    "name": "Nickelodeon",
+    "xmltv_id": "423"
+  },
+  {
+    "name": "Nick Jr.",
+    "xmltv_id": "917"
+  },
+  {
+    "name": "О!",
+    "xmltv_id": "1757"
+  },
+  {
+    "name": "Радость моя",
+    "xmltv_id": "2287"
+  },
+  {
+    "name": "Рыжий",
+    "xmltv_id": "2437"
+  },
+  {
+    "name": "Bridge TV",
+    "xmltv_id": "151"
+  },
+  {
+    "name": "Europa Plus TV",
+    "xmltv_id": "681"
+  },
+  {
+    "name": "MTV",
+    "xmltv_id": "1021"
+  },
+  {
+    "name": "Russian Musicbox",
+    "xmltv_id": "2409"
+  },
+  {
+    "name": "RU.TV",
+    "xmltv_id": "2277"
+  },
+  {
+    "name": "МУЗ-ТВ",
+    "xmltv_id": "897"
+  },
+  {
+    "name": "Матч! Боец",
+    "xmltv_id": "2054"
+  },
+  {
+    "name": "Матч! Игра",
+    "xmltv_id": "2050"
+  },
+  {
+    "name": "Матч! Планета",
+    "xmltv_id": "2043"
+  },
+  {
+    "name": "Матч! Премьер",
+    "xmltv_id": "2250"
+  },
+  {
+    "name": "Матч! Страна",
+    "xmltv_id": "2042"
+  },
+  {
+    "name": "Матч! Футбол 3",
+    "xmltv_id": "2005"
+  },
+  {
+    "name": "Футбол",
+    "xmltv_id": "2782"
+  },
+  {
+    "name": "Animal Planet",
+    "xmltv_id": "365"
+  },
+  {
+    "name": "Discovery Channel",
+    "xmltv_id": "325"
+  },
+  {
+    "name": "History",
+    "xmltv_id": "1394"
+  },
+  {
+    "name": "National Geographic",
+    "xmltv_id": "102"
+  },
+  {
+    "name": "RTД",
+    "xmltv_id": "2295"
+  },
+  {
+    "name": "Travel+Adventure",
+    "xmltv_id": "1035"
+  },
+  {
+    "name": "Travel Channel",
+    "xmltv_id": "613"
+  },
+  {
+    "name": "Большая Азия HD",
+    "xmltv_id": "2417"
+  },
+  {
+    "name": "Вопросы и ответы",
+    "xmltv_id": "2451"
+  },
+  {
+    "name": "Доктор",
+    "xmltv_id": "16"
+  },
+  {
+    "name": "Домашние Животные",
+    "xmltv_id": "520"
+  },
+  {
+    "name": "Живая Планета",
+    "xmltv_id": "2432"
+  },
+  {
+    "name": "Моя Планета",
+    "xmltv_id": "675"
+  },
+  {
+    "name": "Наука",
+    "xmltv_id": "723"
+  },
+  {
+    "name": "Авто24",
+    "xmltv_id": "2008"
+  },
+  {
+    "name": "Авто Плюс",
+    "xmltv_id": "153"
+  },
+  {
+    "name": "Драйв",
+    "xmltv_id": "2443"
+  },
+  {
+    "name": "TLC",
+    "xmltv_id": "425"
+  },
+  {
+    "name": "Мама",
+    "xmltv_id": "618"
+  },
+  {
+    "name": "Охота и рыбалка",
+    "xmltv_id": "2419"
+  },
+  {
+    "name": "Сарафан",
+    "xmltv_id": "663"
+  },
+  {
+    "name": "Теледом",
+    "xmltv_id": "2139"
+  },
+  {
+    "name": "Усадьба",
+    "xmltv_id": "434"
+  },
+  {
+    "name": "Беларусь 24",
+    "xmltv_id": "2170"
+  },
+  {
+    "name": "Москва Доверие",
+    "xmltv_id": "2308"
+  },
+  {
+    "name": "Санкт-Петербург",
+    "xmltv_id": "690"
+  },
+  {
+    "name": "360° Новости",
+    "xmltv_id": "4458"
+  },
+  {
+    "name": "БСТ HD",
+    "xmltv_id": "2464"
+  },
+  {
+    "name": "Архыз 24",
+    "xmltv_id": "2157"
+  }
+]
