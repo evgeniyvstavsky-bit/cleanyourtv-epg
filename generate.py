@@ -92,8 +92,8 @@ for r in confirmed:
     source_id = r['source_id'].strip()
     if not ident.startswith('hometv.') or not source_id or not r['channel'].strip():
         raise RuntimeError('Bad confirmed EPG mapping row')
-    if r['source'] == 'HomeTV' and source_id not in legacy:
-        raise RuntimeError(f'Confirmed EPG.ONE ID missing from channels.json: {source_id}')
+    # Additional EPG.ONE source IDs need not occur in the 97 legacy channels.
+    # The raw EPG.ONE XMLTV is read and filtered by source ID below.
     extra_by_source[r['source']][source_id].append(r)
 
 SITE.mkdir(exist_ok=True)

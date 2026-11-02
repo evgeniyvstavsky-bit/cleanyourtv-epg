@@ -45,7 +45,7 @@
 44,МИР +7,,hometv.044,SHIFT_PREVIEW_NEEDS_CONFIRMATION,HomeTV,726,88,Смещение эфира +N принято как задержка расписания на N часов; проверьте на ТВ до публикации.
 45,ТНТ +2,,hometv.045,SHIFT_PREVIEW_NEEDS_CONFIRMATION,HomeTV,353,59,Смещение эфира +N принято как задержка расписания на N часов; проверьте на ТВ до публикации.
 46,ТНТ +7,,hometv.046,SHIFT_PREVIEW_NEEDS_CONFIRMATION,HomeTV,353,59,Смещение эфира +N принято как задержка расписания на N часов; проверьте на ТВ до публикации.
-47,2х2,,hometv.047,NO_MATCH,,,0,
+47,2х2,,hometv.047,MATCHED,HomeTV,323,0,EXACT_ALIAS_LIVE_REVIEW: source schedule present; actual TV feed requires comparison
 48,Amedia HIT,,hometv.048,MATCHED,HomeTV,2007,115,
 49,Amedia Premium HD,,hometv.049,MATCHED,HomeTV,1372,93,
 50,Fox HD,Fox.ru@SD,hometv.050,MATCHED,HomeTV,1031,111,
@@ -55,15 +55,15 @@
 54,TV1000 Русское кино,vijuTV1000russkoe.ru@SD,hometv.054,MATCHED,HomeTV,267,51,
 55,Время,Vremya.ru@SD,hometv.055,MATCHED,HomeTV,669,18,
 56,Дом кино,,hometv.056,MATCHED,HomeTV,834,24,
-57,Дом кино Премиум,domkino-premium,hometv.057,NO_MATCH,,,0,
+57,Дом кино Премиум,domkino-premium,hometv.057,MATCHED,HomeTV,2020,0,EXACT_ALIAS_LIVE_REVIEW: source schedule present; actual TV feed requires comparison
 58,Еврокино,,hometv.058,MATCHED,HomeTV,352,48,
 59,Иллюзион+,,hometv.059,MATCHED,HomeTV,2403,44,
 60,КиноМеню,,hometv.060,NO_MATCH,,,0,
 61,Киномикс,,hometv.061,MATCHED,HomeTV,644,43,
-62,Кинопоказ,,hometv.062,NO_MATCH,,,0,
+62,Кинопоказ,,hometv.062,MATCHED,HomeTV,2834,0,EXACT_ALIAS_LIVE_REVIEW: source schedule present; actual TV feed requires comparison
 63,Кинопремьера,,hometv.063,MATCHED,HomeTV,566,44,
 64,Киносвидание,,hometv.064,MATCHED,HomeTV,462,42,
-65,Киносезон,,hometv.065,NO_MATCH,,,0,
+65,Киносезон,,hometv.065,MATCHED,HomeTV,11341,0,EXACT_ALIAS_LIVE_REVIEW: source schedule present; actual TV feed requires comparison
 66,Киносемья,,hometv.066,MATCHED,HomeTV,987,50,
 67,Киносерия,,hometv.067,NO_MATCH,,,0,
 68,Кинохит,,hometv.068,MATCHED,HomeTV,542,43,
@@ -77,13 +77,13 @@
 76,Суббота,super,hometv.076,MATCHED,HomeTV,2288,112,
 77,ТНТ4,TNT4.ru@SD,hometv.077,MATCHED,HomeTV,1649,139,
 78,Че,,hometv.078,MATCHED,HomeTV,1598,122,
-79,viju+ Serial HD (1080p),vijuPlusSerial.ru@HD,hometv.079,NO_MATCH,,,0,
+79,viju+ Serial HD (1080p),vijuPlusSerial.ru@HD,hometv.079,MATCHED,HomeTV,2838,0,EXACT_ALIAS_LIVE_REVIEW: source schedule present; actual TV feed requires comparison
 80,viju TV1000 (576p),vijuTV1000.ru@SD,hometv.080,NO_MATCH,,,0,
-81,viju+ Megahit HD (1080p),vijuPlusMegahit.ru@HD,hometv.081,NO_MATCH,,,0,
-82,viju Explore (576p),vijuExplore.ru@SD,hometv.082,NO_MATCH,,,0,
-83,viju+ Comedy HD (1080p),vijuPlusComedy.ru@HD,hometv.083,NO_MATCH,,,0,
-84,viju+ Premiere HD (1080p),vijuPlusPremiere.ru@HD,hometv.084,NO_MATCH,,,0,
-85,Kinokomedija (576p),Kinokomedija.ru@SD,hometv.085,NO_MATCH,,,0,
+81,viju+ Megahit HD (1080p),vijuPlusMegahit.ru@HD,hometv.081,MATCHED,HomeTV,1012,0,EXACT_ALIAS_LIVE_REVIEW: source schedule present; actual TV feed requires comparison
+82,viju Explore (576p),vijuExplore.ru@SD,hometv.082,MATCHED,HomeTV,521,0,EXACT_ALIAS_LIVE_REVIEW: source schedule present; actual TV feed requires comparison
+83,viju+ Comedy HD (1080p),vijuPlusComedy.ru@HD,hometv.083,MATCHED,HomeTV,1011,0,EXACT_ALIAS_LIVE_REVIEW: source schedule present; actual TV feed requires comparison
+84,viju+ Premiere HD (1080p),vijuPlusPremiere.ru@HD,hometv.084,MATCHED,HomeTV,1013,0,EXACT_ALIAS_LIVE_REVIEW: source schedule present; actual TV feed requires comparison
+85,Kinokomedija (576p),Kinokomedija.ru@SD,hometv.085,MATCHED,HomeTV,821,0,EXACT_ALIAS_LIVE_REVIEW: source schedule present; actual TV feed requires comparison
 86,Muzhskoe kino (576p),Muzhskoekino.ru@SD,hometv.086,MATCHED,IPTV-EPG-RU,МУЖСКОЕКИНО.ru,81,
 87,Russkiy Bestseller (576p),RusskiyBestseller.ru@SD,hometv.087,MATCHED,IPTV-EPG-RU,Русскийбестселлер.ru,69,
 88,Komedia (576p),Komedia.ru@SD,hometv.088,NO_MATCH,,,0,
@@ -98,10 +98,10 @@
 97,.black (576p),black.ru@SD,hometv.097,MATCHED,IPTV-EPG-RU,black.ru,143,
 98,Ostrosyuzhetnoye HD (1080p),Ostrosyuzhetnoye.ru@HD,hometv.098,NO_MATCH,,,0,
 99,Hit HD (1080p),Hit.ru@HD,hometv.099,NO_MATCH,,,0,
-100,Indiyskoye Kino (576p),IndiyskoyeKino.ru@SD,hometv.100,NO_MATCH,,,0,
+100,Indiyskoye Kino (576p),IndiyskoyeKino.ru@SD,hometv.100,MATCHED,HomeTV,798,0,EXACT_ALIAS_LIVE_REVIEW: source schedule present; actual TV feed requires comparison
 101,Kino TV SD (576p),KinoTV.ru@SD,hometv.101,MATCHED,IPTV-EPG-RU,КИНОТВ.ru,92,
 102,.red (576p),red.ru@SD,hometv.102,MATCHED,IPTV-EPG-RU,red.ru,169,
-103,FAN (576p),FAN.ru@SD,hometv.103,NO_MATCH,,,0,
+103,FAN (576p),FAN.ru@SD,hometv.103,MATCHED,HomeTV,2359,0,EXACT_ALIAS_LIVE_REVIEW: source schedule present; actual TV feed requires comparison
 104,Russkiy roman (576p),Russkiyroman.ru@SD,hometv.104,MATCHED,IPTV-EPG-RU,Русскийроман.ru,64,
 105,Россия 24,Russia24.ru@SD,hometv.105,MATCHED,HomeTV,1683,212,
 106,Deutsche Welle,,hometv.106,NO_MATCH,,,0,
@@ -112,7 +112,7 @@
 111,МИР 24,,hometv.111,MATCHED,HomeTV,2078,284,
 112,НТВ Мир,,hometv.112,MATCHED,HomeTV,7258,73,
 113,ТАСС,,hometv.113,NO_MATCH,,,0,
-114,CGTN Русский HD,,hometv.114,NO_MATCH,,,0,
+114,CGTN Русский HD,,hometv.114,MATCHED,HomeTV,2268,0,EXACT_ALIAS_LIVE_REVIEW: source schedule present; actual TV feed requires comparison
 115,360° Новости,,hometv.115,MATCHED,HomeTV,4458,189,
 116,LDPR TV,LDPRTV.ru@SD,hometv.116,NO_MATCH,,,0,
 117,Red Line,RedLine.ru@SD,hometv.117,NO_MATCH,,,0,
@@ -147,19 +147,19 @@
 146,Вопросы и ответы,,hometv.146,MATCHED,HomeTV,2451,85,
 147,Доктор,,hometv.147,MATCHED,HomeTV,16,107,
 148,Живая Планета,,hometv.148,MATCHED,HomeTV,2432,113,
-149,Живая природа,,hometv.149,NO_MATCH,,,0,
+149,Живая природа,,hometv.149,MATCHED,HomeTV,2495,0,EXACT_ALIAS_LIVE_REVIEW: source schedule present; actual TV feed requires comparison
 150,Моя Планета,MoyaPlaneta.ru@SD,hometv.150,MATCHED,HomeTV,675,118,
 151,Наука,,hometv.151,MATCHED,HomeTV,723,119,
-152,Da Vinci (576p),DaVinci.ru@SD,hometv.152,NO_MATCH,,,0,
+152,Da Vinci (576p),DaVinci.ru@SD,hometv.152,MATCHED,HomeTV,410,0,EXACT_ALIAS_LIVE_REVIEW: source schedule present; actual TV feed requires comparison
 153,Law TV (1080p),LawTV.ru@SD,hometv.153,NO_MATCH,,,0,
 154,ART (Russia),ART.ru@SD,hometv.154,NO_MATCH,,,0,
 155,Moya stikhiya HD (1080p),Moyastikhiya.ru@HD,hometv.155,NO_MATCH,,,0,
 156,V mire zhivotnykh (1080p),Vmirezhivotnykh.ru@SD,hometv.156,NO_MATCH,,,0,
 157,Shokiruyushchee HD (1080p),Shokiruyushchee.ru@HD,hometv.157,NO_MATCH,,,0,
 158,Moy mir,Moymir.ru@SD,hometv.158,NO_MATCH,,,0,
-159,Nano (576p),Nano.ru@SD,hometv.159,NO_MATCH,,,0,
+159,Nano (576p),Nano.ru@SD,hometv.159,MATCHED,HomeTV,2428,0,EXACT_ALIAS_LIVE_REVIEW: source schedule present; actual TV feed requires comparison
 160,Insayt TV (1080p),InsaytTV.ru@4K,hometv.160,NO_MATCH,,,0,
-161,T24 (576p),T24.ru@SD,hometv.161,NO_MATCH,,,0,
+161,T24 (576p),T24.ru@SD,hometv.161,MATCHED,HomeTV,2762,0,EXACT_ALIAS_LIVE_REVIEW: source schedule present; actual TV feed requires comparison
 162,Матч ТВ,,hometv.162,NO_MATCH,,,0,
 163,КХЛ,KHL.ru@SD,hometv.163,MATCHED,IPTV-EPG-RU,KHL.ru,140,
 164,Матч! Боец,,hometv.164,NO_MATCH,,,0,
@@ -169,25 +169,25 @@
 168,Матч! Страна,,hometv.168,MATCHED,HomeTV,2042,101,
 169,Матч! Футбол 3,,hometv.169,NO_MATCH,,,0,
 170,Футбол,,hometv.170,MATCHED,HomeTV,2782,51,
-171,viju+ Sport (576p),vijuPlusSport.ru@SD,hometv.171,NO_MATCH,,,0,
+171,viju+ Sport (576p),vijuPlusSport.ru@SD,hometv.171,MATCHED,HomeTV,2055,0,EXACT_ALIAS_LIVE_REVIEW: source schedule present; actual TV feed requires comparison
 172,Okko Futbol (576p),OkkoFutbol.ru@SD,hometv.172,NO_MATCH,,,0,
 173,Russian Extreme Ultra (1440p),RussianExtremeUltra.ru@SD,hometv.173,NO_MATCH,,,0,
 174,Boks TV (576p),BoksTV.ru@SD,hometv.174,MATCHED,IPTV-EPG-RU,БОКСТВ.ru,306,
 175,Match! Arena (576p),MatchArena.ru@SD,hometv.175,MATCHED,IPTV-EPG-RU,МАТЧ!АРЕНА.ru,132,
 176,Match! Ultra (720p),MatchUltra.ru@4K,hometv.176,NO_MATCH,,,0,
-177,START Air (576p),STARTAir.ru@SD,hometv.177,NO_MATCH,,,0,
+177,START Air (576p),STARTAir.ru@SD,hometv.177,MATCHED,HomeTV,6241,0,EXACT_ALIAS_LIVE_REVIEW: source schedule present; actual TV feed requires comparison
 178,Bridge TV,,hometv.178,MATCHED,HomeTV,151,34,
 179,Europa Plus TV,,hometv.179,MATCHED,HomeTV,681,72,
 180,MTV,MTV.ru,hometv.180,MATCHED,HomeTV,1021,139,
 181,Russian Musicbox,RussianMusicBox.ru@SD,hometv.181,MATCHED,HomeTV,2409,21,
 182,RU.TV,,hometv.182,MATCHED,HomeTV,2277,41,
 183,МУЗ-ТВ,,hometv.183,MATCHED,HomeTV,897,77,
-184,BRIDGE Hits (576p),BRIDGEHits.ru@SD,hometv.184,NO_MATCH,,,0,
+184,BRIDGE Hits (576p),BRIDGEHits.ru@SD,hometv.184,MATCHED,HomeTV,2024,0,EXACT_ALIAS_LIVE_REVIEW: source schedule present; actual TV feed requires comparison
 185,Classic Music (1080p),ClassicMusic.ru@SD,hometv.185,MATCHED,IPTV-EPG-RU,ClassicMusic.ru,127,
-186,BRIDGE Classic (576p),BRIDGEClassic.ru@SD,hometv.186,NO_MATCH,,,0,
+186,BRIDGE Classic (576p),BRIDGEClassic.ru@SD,hometv.186,MATCHED,HomeTV,4373,0,EXACT_ALIAS_LIVE_REVIEW: source schedule present; actual TV feed requires comparison
 187,BRIDGE Deluxe HD (576p),BRIDGEDeluxe.ru@HD,hometv.187,MATCHED,IPTV-EPG-RU,BRIDGEDELUXE.ru,158,
 188,Live Music Channel HD,LiveMusicChannel.ru@HD,hometv.188,NO_MATCH,,,0,
-189,BRIDGE Rock,BRIDGERock.ru@SD,hometv.189,NO_MATCH,,,0,
+189,BRIDGE Rock,BRIDGERock.ru@SD,hometv.189,MATCHED,HomeTV,6188,0,EXACT_ALIAS_LIVE_REVIEW: source schedule present; actual TV feed requires comparison
 190,DanceHits80,DanceHits80.ru@SD,hometv.190,NO_MATCH,,,0,
 191,Muzyka Pervogo (576p),MuzykaPervogo.ru@SD,hometv.191,MATCHED,IPTV-EPG-RU,МузыкаПервого.ru,165,
 192,Авто24,,hometv.192,MATCHED,HomeTV,2008,207,
@@ -198,8 +198,8 @@
 197,Dikaya rybalka HD (1080p),Dikayarybalka.ru@HD,hometv.197,NO_MATCH,,,0,
 198,Dikaya okhota HD (1080p),Dikayaokhota.ru@HD,hometv.198,NO_MATCH,,,0,
 199,Домашние Животные,,hometv.199,MATCHED,HomeTV,520,214,
-200,Food Network (Russia) (1080p),FoodNetwork.ru@SD,hometv.200,NO_MATCH,,,0,
-201,FoodTime (1080p),FoodTime.ru@SD,hometv.201,NO_MATCH,,,0,
+200,Food Network (Russia) (1080p),FoodNetwork.ru@SD,hometv.200,MATCHED,HomeTV,2741,0,EXACT_ALIAS_LIVE_REVIEW: source schedule present; actual TV feed requires comparison
+201,FoodTime (1080p),FoodTime.ru@SD,hometv.201,MATCHED,HomeTV,7635,0,EXACT_ALIAS_LIVE_REVIEW: source schedule present; actual TV feed requires comparison
 202,TLC,,hometv.202,MATCHED,HomeTV,425,101,
 203,Мама,,hometv.203,MATCHED,HomeTV,618,72,
 204,Теледом,,hometv.204,MATCHED,HomeTV,2139,124,
@@ -207,7 +207,7 @@
 206,Kulinar TV,KulinarTV.ru@SD,hometv.206,NO_MATCH,,,0,
 207,Fashion&LifeStyle (1080p),FashionLifeStyle.ru@SD,hometv.207,NO_MATCH,,,0,
 208,Zagorodnaya Zhizn (576p),ZagorodnayaZhizn.ru@SD,hometv.208,NO_MATCH,,,0,
-209,Telecafe (576p),Telecafe.ru@SD,hometv.209,NO_MATCH,,,0,
+209,Telecafe (576p),Telecafe.ru@SD,hometv.209,MATCHED,HomeTV,2304,0,EXACT_ALIAS_LIVE_REVIEW: source schedule present; actual TV feed requires comparison
 210,Беларусь 24,,hometv.210,MATCHED,HomeTV,2170,179,
 211,Кубань 24,,hometv.211,NO_MATCH,,,0,
 212,Москва Доверие,,hometv.212,MATCHED,HomeTV,2308,109,
@@ -219,7 +219,7 @@
 218,Эфир,,hometv.218,NO_MATCH,,,0,
 219,БСТ HD,,hometv.219,MATCHED,HomeTV,2464,110,
 220,Архыз 24,,hometv.220,MATCHED,HomeTV,2157,140,
-221,Sochi24,Sochi24.ru@SD,hometv.221,NO_MATCH,,,0,
+221,Sochi24,Sochi24.ru@SD,hometv.221,MATCHED,HomeTV,2830,0,EXACT_ALIAS_LIVE_REVIEW: source schedule present; actual TV feed requires comparison
 222,Abaza TV (1080p),AbazaTV.ru@SD,hometv.222,NO_MATCH,,,0,
 223,Istoki,Istoki.ru@SD,hometv.223,NO_MATCH,,,0,
 224,Soyuzny (480p),Soyuzny.ru@SD,hometv.224,NO_MATCH,,,0,
@@ -228,4 +228,4 @@
 227,Ю +7,,hometv.227,SHIFT_NO_BASE_MATCH,,,0,
 228,NTV Svoya igra,NTVSvoyaigra.ru@SD,hometv.228,NO_MATCH,,,0,
 229,Magnat,Magnat.ru@SD,hometv.229,NO_MATCH,,,0,
-230,2x2 SD (576p),2x2.ru@SD,hometv.230,NO_MATCH,,,0,
+230,2x2 SD (576p),2x2.ru@SD,hometv.230,MATCHED,HomeTV,323,0,EXACT_ALIAS_LIVE_REVIEW: source schedule present; actual TV feed requires comparison
