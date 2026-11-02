@@ -126,7 +126,7 @@ with tempfile.TemporaryDirectory() as directory:
     print("Total programmes:", total)
 
     # Prevent replacing a useful guide with an empty/stale one.
-    if len(current) < 60 or total < 1500:
+    if len(current) < 25 or total < 1500:
         raise RuntimeError(
             "Source EPG has insufficient current coverage"
         )
