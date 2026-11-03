@@ -30,6 +30,10 @@ jobs:
       - name: Generate and validate compact EPG
         run: python generate.py
 
+      - name: Add verified IPTVX schedules
+        run: python iptvx-addon.py
+
+
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
 

@@ -1,0 +1,63 @@
+number,channel,source_id
+2,Россия 1,rossia1
+8,СПАС,spas
+16,Россия 1 +2,rossia1-pl2
+17,НТВ +2,ntv-pl2
+18,НТВ +4,ntv-pl4
+19,НТВ +7,ntv-pl7
+20,Россия К / Культура +2,kultura-pl2
+21,Россия К / Культура +4,kultura-pl4
+22,Россия К / Культура +7,kultura-pl7
+23,ТВ Центр +2,tvcentr-pl2
+24,ТВ Центр +4,tvcentr-pl4
+25,ТВ Центр +7,tvcentr-pl7
+26,РЕН ТВ +2,rentv-pl2
+27,РЕН ТВ +4,rentv-pl4
+28,РЕН ТВ +7,rentv-pl7
+29,СТС +2,sts-pl2
+30,СТС +4,sts-pl4
+31,СТС +7,sts-pl7
+32,Домашний +2,domashny-pl2
+33,Домашний +4,domashny-pl4
+34,Домашний +7,domashny-pl7
+35,ТВ-3 +2,tv3-ru-pl2
+36,ТВ-3 +4,tv3-ru-pl4
+37,ТВ-3 +7,tv3-ru-pl7
+38,Пятница! +4,piatnica-pl4
+39,Звезда +2,zvezda-pl2
+40,Звезда +4,zvezda-pl4
+41,Звезда +7,zvezda-pl7
+42,МИР +2,mir-pl2
+43,МИР +4,mir-pl4
+44,МИР +7,mir-pl7
+45,ТНТ +2,tnt-pl2
+46,ТНТ +7,tnt-pl7
+67,Киносерия,kinoseria
+80,viju TV1000 (576p),tv1000
+90,Nash Kinopokaz HD (576p),nash-kinopokaz-hd
+91,Blokbaster HD (1080p),blokbaster-hd
+92,Nashe muzhskoe HD (1080p),nashe-muzhskoe-hd
+94,NST (576p),nst
+95,Premialnoe HD (1080p),premialnoe-hd
+116,LDPR TV,ldpr-tv
+118,Svoboda,svoboda
+122,Карусель +7,karusel-pl7
+130,Солнце,solnce
+141,RTG,rtg-tv
+142,RTД,rtd-ru
+157,Shokiruyushchee HD (1080p),shokiruyushchee-hd
+162,Матч ТВ,match-tv
+164,Матч! Боец,match-boets
+165,Матч! Игра,match-igra
+169,Матч! Футбол 3,match-football3
+188,Live Music Channel HD,live-music-channel
+197,Dikaya rybalka HD (1080p),dikaya-rybalka-hd
+208,Zagorodnaya Zhizn (576p),zagorodnaya-zhizn
+211,Кубань 24,kuban-24
+215,СТВ Беларусь,stv-by
+216,Татарстан 24,tatarstan24
+217,ТНВ,tnv
+218,Эфир,efir24-relax
+226,Ю,yu
+227,Ю +7,yu-pl7
+229,Magnat,magnat
