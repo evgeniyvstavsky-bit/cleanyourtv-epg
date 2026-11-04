@@ -53,9 +53,11 @@ jobs:
 
 
       - name: Setup GitHub Pages
+        if: steps.iptvx.outputs.ready == 'true'
         uses: actions/configure-pages@v5
 
       - name: Upload EPG site artifact
+        if: steps.iptvx.outputs.ready == 'true'
         uses: actions/upload-pages-artifact@v4
         with:
           path: site

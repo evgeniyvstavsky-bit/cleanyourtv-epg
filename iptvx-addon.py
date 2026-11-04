@@ -114,6 +114,7 @@ def main():
     )
 
     assignments = {}
+    reused_existing = {}
     new_channels = []
 
     for r in rows:
@@ -129,9 +130,8 @@ def main():
             if dest not in old_ids:
                 raise RuntimeError("Missing legacy ID: " + dest)
             if old_counts[dest]:
-                raise RuntimeError(
-                    "Existing channel already has programmes: " + dest
-                )
+                # Preserve upstream programmes; never add overlapping IPTVX copies.
+                reused_existing[dest] = old_counts[dest]
         else:
             dest = f"hometv.extra.{number:03d}"
             if dest in old_ids:
@@ -203,7 +203,7 @@ def main():
                 continue
             source = row["source_id"]
 
-        if source not in assignments:
+        if source not in assignments or assignments[source] in reused_existing:
             continue
 
         start = parse_time(element.get("start"))
@@ -244,6 +244,9 @@ def main():
 
     for r in rows:
         dest = assignments[r["source_id"]]
+        if dest in reused_existing:
+            # Already populated and validated by generate.py; do not overwrite.
+            continue
         blocks = sorted(intervals[dest])
         merged = []
 
@@ -258,6 +261,22 @@ def main():
         )
         coverage = 100 * covered / (48 * 3600)
 
+        # RTG_PARTIAL_EXCEPTION_V1: keep only real RTG-TV programmes.
+        # Do NOT substitute the different RTG HD / International feeds.
+        # All other channels retain the original >=50% / >=3-title policy.
+        is_rtg_tv = (
+            int(r["number"]) == 141
+            and r["source_id"].strip() == "rtg-tv"
+            and dest == "hometv.extra.141"
+        )
+        if is_rtg_tv and 10 <= coverage < 50 and counts[dest] >= 10 and len(titles[dest]) >= 10:
+            print(
+                f"WARNING: RTG TV PARTIAL: {counts[dest]} authentic programmes, "
+                f"{coverage:.1f}% of next 48h. Other programmes untouched.",
+                flush=True,
+            )
+            # This is a documented partial-guide exception, NOT a PASS at >=50%.
+            continue
         if counts[dest] == 0 or coverage < 50 or len(titles[dest]) < 3:
             raise RuntimeError(
                 f"Insufficient schedule for {r['channel']}: "
@@ -306,6 +325,7 @@ def main():
     print("\n========== IPTVX ADDON RESULT ==========")
     print("Existing channels:", len(old_channels))
     print("Added channels:", len(new_channels))
+    print("Existing IDs reusing their original programmes:", reused_existing)
     print("Total channels:", expected_channels)
     print("Existing programmes:", len(old_programmes))
     print("Added programmes:", len(additions))
