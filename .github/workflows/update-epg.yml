@@ -48,23 +48,21 @@ jobs:
             fi
           done
           echo "ready=false" >> "$GITHUB_OUTPUT"
-          echo "::warning::IPTVX failed validation after 3 attempts; keeping last published EPG unchanged."
-          echo "IPTVX unavailable/invalid: deployment skipped; existing GitHub Pages EPG remains published." >> "$GITHUB_STEP_SUMMARY"
+          echo "::warning::IPTVX failed validation after 3 attempts; publishing validated base EPG."
+          echo "IPTVX unavailable/invalid: publishing validated base EPG without IPTVX additions." >> "$GITHUB_STEP_SUMMARY"
 
 
       - name: Setup GitHub Pages
-        if: steps.iptvx.outputs.ready == 'true'
         uses: actions/configure-pages@v5
 
       - name: Upload EPG site artifact
-        if: steps.iptvx.outputs.ready == 'true'
         uses: actions/upload-pages-artifact@v4
         with:
           path: site
 
   deploy:
     needs: build
-    if: needs.build.outputs.ready == 'true'
+    if: needs.build.result == 'success'
     runs-on: ubuntu-latest
     permissions:
       pages: write
